@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的第一个科技网站</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">科技<span>视野</span></a>
+    <nav aria-label="主导航">
+      <a href="#stories">科技观察</a>
+      <a href="#about">关于本站</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">TECH · IDEAS · FUTURE</p>
+      <h1>我的第一个科技网站</h1>
+      <p class="intro">从一份好奇出发，探索科技如何改变我们的生活。</p>
+      <button id="inspiration-button" type="button">获取今日灵感 <span aria-hidden="true">↗</span></button>
+      <p id="inspiration-text" class="inspiration" aria-live="polite">点击按钮，开启一次小小的探索。</p>
+    </section>
+
+    <section id="stories" class="stories" aria-labelledby="stories-heading">
+      <div class="section-heading">
+        <h2 id="stories-heading">科技观察</h2>
+        <span>三个值得探索的话题</span>
+      </div>
+      <div class="card-grid">
+        <article class="card">
+          <span class="category">人工智能</span>
+          <h3>让 AI 成为学习伙伴</h3>
+          <p>从解释一个新概念到练习一道题，人工智能正在为学习打开新的可能。</p>
+        </article>
+        <article class="card">
+          <span class="category">数字生活</span>
+          <h3>让工具服务于生活</h3>
+          <p>好的科技让复杂的事情变简单，也让我们有更多时间关注真正重要的事。</p>
+        </article>
+        <article class="card">
+          <span class="category">网页开发</span>
+          <h3>从第一个网页开始创造</h3>
+          <p>一个标题、一段文字、一个按钮。把想法变成网页，可以从很小的一步开始。</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">每一次创造，都从好奇开始。</h2>
+      <p>这是我的第一个网页作品，也是学习网页开发的起点。欢迎和我一起探索科技世界。</p>
+    </section>
+  </main>
+
+  <footer>我的第一个科技网站 · 保持好奇，持续学习</footer>
+</body>
+</html>
