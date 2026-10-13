@@ -40,8 +40,11 @@ nav a:hover { color: var(--accent); }
 /* 首页介绍：留白让标题更醒目。 */
 .hero {
   padding: 88px 0 56px;
-  background: radial-gradient(ellipse at top right, #e5efff, transparent 65%);
+  background: linear-gradient(135deg, #081529 0%, #123466 60%, #164875 100%);
 }
+.hero h1 { color: #ffffff; }
+.hero .eyebrow { color: #9bdcff; }
+.hero .intro, .hero .inspiration { color: #dce9fa; }
 .eyebrow {
   color: var(--accent);
   font-size: 12px;
